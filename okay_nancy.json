@@ -3,7 +3,7 @@
   "wake_word": "okay nancy",
   "author": "Your Name",
   "website": "",
-  "model": "okay_nancy.tflite",
+  "model": "https://github.com/BareMetalTinker/esphome-models/raw/refs/heads/main/okay_Nancy.tflite",
   "version": 2,
   "micro": {
     "probability_cutoff": 0.9,
@@ -12,4 +12,5 @@
     "tensor_arena_size": 22860,
     "minimum_esphome_version": "2024.1.0-dev"
   }
+
 }
