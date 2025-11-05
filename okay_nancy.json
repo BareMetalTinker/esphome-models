@@ -3,7 +3,7 @@
   "wake_word": "okay Nancy",
   "author": "BareMetalTinker",
   "website": "",
-  "model": "okay_Nancy.tflite",
+  "model": "https://raw.githubusercontent.com/BareMetalTinker/esphome-models/main/okay_Nancy.tflite",
   "version": 2,
   "micro": {
     "probability_cutoff": 0.9,
@@ -14,4 +14,5 @@
   }
 
 }
+
 
