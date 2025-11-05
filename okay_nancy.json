@@ -2,8 +2,8 @@
   "type": "micro",
   "wake_word": "okay Nancy",
   "author": "BareMetalTinker",
-  "website": "",
-  "model": "https://raw.githubusercontent.com/BareMetalTinker/esphome-models/main/okay_Nancy.tflite",
+  "website": "www.BareMetalTinker.com",
+  "model": "okay_Nancy.tflite",
   "version": 2,
   "micro": {
     "probability_cutoff": 0.9,
@@ -14,5 +14,6 @@
   }
 
 }
+
 
 
