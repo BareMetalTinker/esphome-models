@@ -3,18 +3,17 @@
   "wake_word": "okay Nancy",
   "author": "BareMetalTinker",
   "website": "https://https://github.com/BareMetalTinker",
-  "model": "https://raw.githubusercontent.com/BareMetalTinker/esphome-models/refs/heads/main/okay_Nancy.tflite",
-  "trained_languages": ["en"],
+  "model": "https://raw.githubusercontent.com/alexgustafsson/esphome/refs/heads/main/models/microwakeword/cicero.tflite",
   "version": 2,
+  "trained_languages": ["en"],
   "micro": {
-    "probability_cutoff": 0.9,
+    "probability_cutoff": 0.63,
     "sliding_window_size": 5,
     "feature_step_size": 10,
     "tensor_arena_size": 22860,
     "minimum_esphome_version": "2024.7.0"
   }
 }
-
 
 
 
