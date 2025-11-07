@@ -3,9 +3,9 @@
   "wake_word": "okay Nancy",
   "author": "BareMetalTinker",
   "website": "www.BareMetalTinker.com",
-  "model": "./okay_Nancy.tflite",
+  "model": "okay_Nancy.tflite",
   "trained_languages": ["en"],
-  "version": 2,
+  "version": 1,
   "micro": {
     "probability_cutoff": 0.9,
     "sliding_window_size": 5,
@@ -14,6 +14,7 @@
     "minimum_esphome_version": "2024.7.0"
   }
 }
+
 
 
 
